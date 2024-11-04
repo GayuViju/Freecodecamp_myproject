@@ -1,0 +1,110 @@
+<html>
+  <style>
+    nav ul
+ {
+  list-style-type:none;
+}
+@media (max-width:600px)
+{
+  width:300px;
+}
+  </style>
+  <head>
+    <title>Java Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h2>Java Documentation</h2></header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Javascript_and_Java">Javascript and Java</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+        <li><a class="nav-link" href="#Operators">Operators</a></li>
+        <li><a class="nav-link" href="#References">References</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header><h2>Introduction</h2></header>
+        <p>
+          Java is a compiled, object-oriented, highly portable programming language. Java is statically typed and features a similar syntax to C. It comes with a large library of readily usable functions, the Java Software Development Kit (SDK).
+        </p>
+        <p>
+          Programs are compiled only once ahead of time into a proprietary byte code and package format that runs inside the Java Virtual Machine (JVM). The JVM is available across many platforms, which allows Java programs to run almost everywhere without the need to be compiled or packaged again. This makes it a preferred language in many large enterprises with heterogenous landscapes, but may be perceived as "heavy".
+        </p>
+      </section>
+
+      <section class="main-section" id="Javascript_and_Java">
+        <header><h2>Javascript and Java</h2></header>
+        <p>
+          According to the Java platform official website, the main difference between Java and JavaScript is that Java is an OOP programming language while JavaScript is an OOP programming script. JavaScript code is written completely in text and need only be interpreted. Java, on the other hand, must be compiled.
+        </p>
+        <p>
+          They are also used for different types of projects. Java is used to make applications on devices or browsers, while JavaScript is used primarily on HTML documents and browsers. Different plug-ins are used in order to use Java and JavaScript.
+        </p>
+        <p>
+          Let's have a look at the output of each language:
+          <code>System.out.println("HelloWorld");</code>
+          <code>console.log("HelloWorld");</code>
+        </p>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header><h2>Variables</h2></header>
+        <p>
+          Variables are containers for storing data values. In Java, there are different types of variables, for example:
+        </p>
+        <ul>
+          <li>String, int, float, char, boolean</li>
+        </ul>
+        <code>
+          String name = "John";<br>
+          System.out.println(name);
+        </code>
+      </section>
+
+      <section class="main-section" id="Data_Types">
+        <header><h2>Data Types</h2></header>
+        <p>
+          Data types are divided into two groups:
+          <ul>
+            <li>Primitive data types - includes byte, short, int, long, float, double, boolean, and char.</li>
+            <li>Non-primitive data types - such as String, Arrays, and Classes.</li>
+          </ul>
+        </p>
+        <code>
+          int myNum = 5; // Integer (whole number)<br>
+          float myFloatNum = 5.99f; // Floating point number
+        </code>
+        <code>
+          char myLetter = 'D'; // Character<br>
+          boolean myBool = true; // Boolean<br>
+          String myText = "Hello"; // String
+        </code>
+      </section>
+
+      <section class="main-section" id="Operators">
+        <header><h2>Operators</h2></header>
+        <p>
+          Operators are used to perform operations on variables and values. Java divides the operators into the following groups:
+          <ul>
+            <li>Arithmetic operators</li>
+            <li>Assignment operators</li>
+            <li>Comparison operators</li>
+            <li>Logical operators</li>
+            <li>Bitwise operators</li>
+          </ul>
+        </p>
+      </section>
+
+      <section class="main-section" id="References">
+        <header><h2>References</h2></header>
+        <p>
+          All documentation on this page is taken from W3Schools, MDN, CodePen Home, Charity Rogers, and The Software Guild.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
